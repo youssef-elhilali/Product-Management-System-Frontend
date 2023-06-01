@@ -30,7 +30,7 @@
                   <div class="col-md-6">
                     <div class="invoice-info">
                       <strong class="customer-text-one"
-                        >Youssef ELHILALI</strong
+                        >Youssef</strong
                       >
                       <h6 class="invoice-name">Product Management System</h6>
                       <p class="invoice-details">PMS</p>
@@ -91,7 +91,7 @@
     </div>
   </div>
 </template>
-    
+
     <script>
 import SideBar from "./SideBar.vue";
 import CategoryService from "@/services/CategoryService";
@@ -168,7 +168,7 @@ export default {
   },
 };
 </script>
-    
+
 <style>
 span {
   font-size: 17px;
@@ -185,4 +185,3 @@ i {
   margin-right: 7px;
 }
 </style>
-    
