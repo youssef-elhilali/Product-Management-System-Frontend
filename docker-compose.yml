@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+
+  pms-frontend:
+    container_name: pms-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8083:8080"
+    volumes:
+      - .:/app/frontend
